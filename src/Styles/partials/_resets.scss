@@ -1,0 +1,21 @@
+@use "./variables" as *;
+@use "./fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Titillium-Web";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  margin: 0;
+  width: 100%;
+}

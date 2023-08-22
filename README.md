@@ -1,82 +1,70 @@
-andrew-campbell-capstone
-Project Title
-Photography comparison tip tool Snappy Happy
+# Getting Started with Create React App
 
-Overview
-What is your app? Brief description in a couple of sentences.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A app for begginer photographers to get ideas of pictures to take and what style of shots they would like to create and to copy the picture taken from the profesional then people can comment or give tips of what to try next time ie lower the iso change the shutter speed try using a tri-pod.
+## Available Scripts
 
-Problem
-Why is your app needed? Background information around any pain points or other reasons.
+In the project directory, you can run:
 
-To help now comers to photography with a idea of what to take pictures of and practice the skills and the settings of the camera.
+### `npm start`
 
-User Profile
-Who will use your app? How will they use it? Any special considerations that your app must take into account.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-biginner photographers creating the idea of what you have in mind to the digital world of photography.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Features
-List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe how these features are implemented, only what needs to be implemented.
+### `npm test`
 
-beginner photographer will have a picture in 1 box on the screen as a idea for a perticular shot (landscape, wildlife, night-shot, panning shot) and the user will upload there attempt of the re-created shot. people can view the attempt like it and comment on it with tips and advice.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Tech Stack
-List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
+### `npm run build`
 
-react hook form, color hunt, express file upload, react comparison slider
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-APIs
-List any external sources of data that will be used in your app.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-My api key = FQWZQpOm0Zc1jPQo0VVM5j7xn1pDJr08cDgZ7XfXzAn4HJIgEwS20akG api ive been looking into is https://www.pexels.com/api/documentation/
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Implementation
-Sitemap
-List the pages of your app with brief descriptions. You can show this visually, or write it out.
+### `npm run eject`
 
-main page - displaying the pro image to re-create with a header and a footer comments section like button in the shape of a camera refresh button to get a new pro image log in page location ides and things you may need on the shoot.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Mockups
-Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Endpoints
-List endpoints that your server will implement, including HTTP methods, parameters, and example responses. GET, POST
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-GET /todos
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Lists all todo items.
-GET one picture
-GET random picture
-POST one picture
+## Learn More
 
-[
-    {
-        id: "photo1"
-        name: "landscape",
-        edited: true/false
-        location: "Galapagos"
-        make/model: "Sony"
-    },
-]
-Database
-Describe your data and the relationships between them. You can show this visually using diagrams, or write it out. get a random picture from a api and display the picture in a box
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-uplod pictures and data to a Json file for the begginers photos to be stored
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Auth
-Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented. Login page with email and password
+### Code Splitting
 
-No
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Roadmap
-Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
+### Analyzing the Bundle Size
 
-create folder structure set up api end points create basic header and footer 2 cards styled nicely for pics to display responsive design mob ,tab, desktop be able to upload pics to back end create form login create comment form section create like button
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Nice-to-haves
-Your project will be marked based on what you committed to in the above document. Under nice-to-haves, you can list any additional features you may complete if you have extra time, or after finishing.
+### Making a Progressive Web App
 
-light mode and dark mode, genre drop down box to select what type of picture to re-create landscape, motorsport, portrait Fav pic gallery to store your favourite pro pics to try and re-create
-a log in page will require an email and password entered to proceed to upload a picture
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
