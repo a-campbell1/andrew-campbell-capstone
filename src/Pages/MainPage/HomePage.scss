@@ -1,0 +1,17 @@
+@use "../../Styles/partials/variables" as *;
+@use "../../Styles/partials/mixins" as *;
+
+
+.background {
+    width: 100%;
+    height: auto;
+    display: flex;
+    @include tablet {
+        width: 100%;
+        height: auto;
+    }
+    @include desktop {
+        width: 100%;
+        height: auto;
+    }
+} 

@@ -1,0 +1,62 @@
+@use "../../Styles/partials/variables" as *;
+@use "../../Styles/partials/mixins" as *;
+
+.header-section {
+  &__title {
+    font-family: "Dancing-Script";
+    color: #ef6817;
+    padding-left: 1rem;
+    font-size: 2rem;
+    @include tablet {
+        font-size: 5rem;
+    }
+  }
+  &__container-btn {
+    display: flex;
+    max-width: 100%;
+    height: 10rem;
+    justify-content: space-evenly;
+  }
+  &__container-left {
+    padding-top: 1rem;
+  }
+  &__container-centre {
+    padding-top: 1rem;
+  }
+  &__container-right {
+    padding-top: 1rem;
+  }
+  .login-btn,
+  .sign-up-btn,
+  .camera-store-btn {
+    background-color: #21201f;
+    border-radius: 20px;
+    width: 6rem;
+    height: 2.3rem;
+    color: #ef6817;
+    border-color: #ef6817;
+    @include tablet {
+      width: 10rem;
+    }
+  }
+  
+  h1 {
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+}
+.login-btn:hover {
+    text-decoration: underline;
+    color: #21201f;
+    background-color: #ef6817;
+ }
+ .sign-up-btn:hover {
+    text-decoration: underline;
+    color: #21201f;
+    background-color: #ef6817;
+ }
+ .camera-store-btn:hover {
+    text-decoration: underline;
+    color: #21201f;
+    background-color: #ef6817;
+ }
