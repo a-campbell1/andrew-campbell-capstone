@@ -6,6 +6,7 @@ import Header from "../../Components/Header/Header";
 import capstone from "../../Assets/Logos/capstone-bg.avif";
 import Footer from "../../Components/Footer/Footer";
 import propic from "../../Assets/images/propic.webp";
+import LikeButton from "../../Components/LikeButton/LikeButton";
 
 function HomePage() {
   return (
@@ -28,13 +29,18 @@ function HomePage() {
                   alt="looking through a camera lens"
                 />
                 </section>
+                <LikeButton />
+                
               </section>
+              
               <img
                 className="background"
                 src={capstone}
                 alt="smokey background"
               />
+              
             </section>
+            
           </div>
         </div>
       </section>
