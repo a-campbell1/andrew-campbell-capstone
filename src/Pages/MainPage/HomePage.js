@@ -29,14 +29,16 @@ function HomePage() {
                     alt="looking through a camera lens"
                   />
                 </section>
-                <LikeButton />
               </section>
+              
               <img
                 className="background"
                 src={capstone}
                 alt="smokey background"
               />
+              
             </section>
+            
           </div>
         </div>
       </section>
