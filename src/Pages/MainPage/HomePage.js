@@ -29,6 +29,7 @@ function HomePage() {
                     alt="looking through a camera lens"
                   />
                 </section>
+                <LikeButton />
               </section>
               
               <img
