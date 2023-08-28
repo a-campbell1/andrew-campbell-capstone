@@ -1,0 +1,17 @@
+.like-button {
+    position: absolute;
+    display: block;
+    width: 15%;
+    background: transparent;
+    border: none;
+}
+.like-icon {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+.likes-counter {
+    font-size: 10px;
+    color: #ef6817;
+}

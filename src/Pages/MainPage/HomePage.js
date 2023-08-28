@@ -6,6 +6,7 @@ import Header from "../../Components/Header/Header";
 import capstone from "../../Assets/Logos/capstone-bg.avif";
 import Footer from "../../Components/Footer/Footer";
 import propic from "../../Assets/images/propic.webp";
+import LikeButton from "../../Components/LikeButton/LikeButton";
 
 function HomePage() {
   return (
@@ -22,12 +23,13 @@ function HomePage() {
               </section>
               <section className="productcards__container-content">
                 <section className="productcards__container-pro">
-                <img
-                  className="profesional-pic"
-                  src={propic}
-                  alt="looking through a camera lens"
-                />
+                  <img
+                    className="profesional-pic"
+                    src={propic}
+                    alt="looking through a camera lens"
+                  />
                 </section>
+                <LikeButton />
               </section>
               <img
                 className="background"
