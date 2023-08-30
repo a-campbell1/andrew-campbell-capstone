@@ -15,11 +15,12 @@
 }
 .productcards {
   &__container-title {
-    position: absolute;
+    // position: absolute;
     color: whitesmoke;
+    margin-top: 0;
   }
   &__container-content {
-    position: absolute;
+    // position: absolute;
     width: 100%;
   }
   
@@ -30,3 +31,15 @@
     border-radius: 5px;
     border: 2px solid #ef6817
   }
+  .main-body {
+    background-image: url("../../Assets/Logos/capstone-bg.avif");
+    height: 72vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title {
+    margin-top: 0;
+  }
+  
+
+  

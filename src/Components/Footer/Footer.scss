@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 0.5rem;
+    border-top: 3px solid white;
     @include desktop {
         padding-top: 1rem;
     }
