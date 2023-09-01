@@ -15,31 +15,80 @@
 }
 .productcards {
   &__container-title {
-    // position: absolute;
     color: whitesmoke;
     margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
   }
   &__container-content {
-    // position: absolute;
     width: 100%;
   }
-  
+  &__container-pro {
+    display: flex;
+  }
+  &__container-left {
+    margin: auto;
+    display: block;
+  }
+  &__container-right {
+    margin: auto;
+    display: block;
+  }
+  &__container-left-refresh {
+    background-color: #383838;
+    border-radius: 20px;
+    width: 10rem;
+    height: 2.3rem;
+    color: #ef6817;
+    border-color: #ef6817;
+  }
+  // &__container-right-upload {
+  //   background-color: #383838;
+  //   border-radius: 20px;
+  //   width: 6rem;
+  //   height: 2.3rem;
+  //   color: #ef6817;
+  //   border-color: #ef6817;
+  // }
 }
-.profesional-pic {
-    width: 15vh;
-    height: 22vh;
-    border-radius: 5px;
-    border: 2px solid #ef6817
+
+  .profesional-pic {
+    &__left {
+      width: 70%;
+      border-radius: 5px;
+      border: 2px solid #ef6817
+    }
+    &__right {
+      width: 60%;
+      // height: 53vh;
+      border-radius: 5px;
+      border: 2px solid #ef6817
+
+    }
   }
   .main-body {
     background-image: url("../../Assets/Logos/capstone-bg.avif");
-    height: 72vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .title {
+  .title-pro, .title-begginer {
     margin-top: 0;
+    // font-family: "Dancing-Script";
+  }
+ 
+
+  .productcards__container-left-refresh:hover {
+    text-decoration: underline;
+    color: #21201f;
+    background-color: #ef6817;
+    cursor: pointer;
   }
   
+  .like-button__left {
+    margin: auto;
+  }
+  .like-button__right {
+    margin: auto;
+  }
 
   

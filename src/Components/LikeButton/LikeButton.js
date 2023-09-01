@@ -3,7 +3,7 @@ import LikeBtn from "../../Assets/Icons/Like-Btn.png";
 import "./LikeButton.scss";
 
 const LikeButton = () => {
-  const [likes, setLikes] = useState(80);
+  const [likes, setLikes] = useState(0);
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {

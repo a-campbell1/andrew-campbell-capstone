@@ -1,9 +1,12 @@
 .like-button {
-    position: absolute;
     display: block;
-    width: 15%;
+    width: 20%;
     background: transparent;
     border: none;
+    margin: auto;
+    &__container {
+        display: flex;
+    }
 }
 .like-icon {
     position: relative;
@@ -12,6 +15,6 @@
     cursor: pointer;
 }
 .likes-counter {
-    font-size: 12px;
+    font-size: 25px;
     color: #ef6817;
 }
