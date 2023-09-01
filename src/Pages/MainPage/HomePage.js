@@ -103,17 +103,45 @@ function HomePage() {
                   </div>
                 </section>
               </div>
-             
             </section>
-             
           </div>
+          <section className="lower__section-links">
+          <section className="recommendations__container">
+            <div className="recommendations__birds">
+              <Link to="http://www.photographers-resource.co.uk/wildlife/locations/birds/Lists/UK_Wild_Birds.htm">
+                <button className="photography-resources">
+                  Photography locations for Birds
+                </button>
+              </Link>
+            </div>
+            <div className="recommendations__zoo">
+              <Link to="https://dayoutinengland.com/best-zoo-in-england/">
+                <button className="photography-zoo">Zoo Locations in UK</button>
+              </Link>
+            </div>
+            <div className="recommendations__landscape">
+              <Link to="https://www.36exp.co.uk/the-5-best-landscape-photography-locations-in-london/">
+                <button className="photography-lanscape-locations">
+                  Locations for Landscape Photography
+                </button>
+              </Link>
+            </div>
+          </section>
+          <section className="things-to-take__container">
+            <p className="things-to-take-title">Things to take</p>
+            <ul>
+              <li>Umbrella</li>
+              <li>Tri-Pod</li>
+              <li>Gloves</li>
+              <li>Dust Blower</li>
+              <li>White balance cards</li>
+              <li>Rain-Coat</li>
+            </ul>
+          </section>
+          </section>
         </div>
       </section>
-      <section className="recommendations__container">
-                <div className="recommendations__links">
-                  <Link to="http://www.photographers-resource.co.uk/wildlife/locations/birds/Lists/UK_Wild_Birds.htm"></Link>
-                </div>
-              </section>
+
       <Footer />
     </>
   );

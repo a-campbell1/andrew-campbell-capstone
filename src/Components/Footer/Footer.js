@@ -11,39 +11,38 @@ function Footer() {
         <div className="footer-section__container ">
           <div className="footer-section__links-container">
             <div className="fotter-section__link-twitter">
-                <Link to="https://twitter.com">
-            <img
-              className="footer-section__social-icon"
-              src={icontwitter}
-              alt="twitter-symbol"
-            />
-            </Link>
+              <Link to="https://twitter.com">
+                <img
+                  className="footer-section__social-icon"
+                  src={icontwitter}
+                  alt="twitter-symbol"
+                />
+              </Link>
             </div>
             <div className="footer-section__link-insta">
-                <Link to="https://instagram.com">
-            <img
-              className="footer-section__social-icon"
-              src={iconinsta}
-              alt="instagram-symbol"
-            />
-            </Link>
+              <Link to="https://instagram.com">
+                <img
+                  className="footer-section__social-icon"
+                  src={iconinsta}
+                  alt="instagram-symbol"
+                />
+              </Link>
             </div>
             <div className="footer-section__link-fb">
-                <Link to="https://facebook.com">
-            <img
-              className="footer-section__social-icon"
-              src={iconfacebook}
-              alt="facebook-symbol"
-            />
-            </Link>
+              <Link to="https://facebook.com">
+                <img
+                  className="footer-section__social-icon"
+                  src={iconfacebook}
+                  alt="facebook-symbol"
+                />
+              </Link>
             </div>
           </div>
-
           <div className="footer-section__background">
             <div className="footer-section__copyright">
               <Link to="https://www.pexels.com">
                 <button className="copyright-txt">
-                  Copyright &#169; 2018 - 2019, All Rights Reserved By PEXEL
+                  Copyright &#169; 2022 - 2023, All Rights Reserved By PEXEL
                 </button>
               </Link>
             </div>
