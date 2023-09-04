@@ -68,8 +68,8 @@ function HomePage() {
             <section className="productcards__container">
               <section className="productcards__container-title">
                 <p className="title-pro">
-                  Here we will help you take your begginner steps in
-                  understanding how to take pictures in a preofessional way.
+                  Here we will help you take your beginner steps in
+                  understanding how to take pictures in a professional way.
                   Select an image on the left and we will give you tips and
                   pointers for how to get this picture. Then once you are done,
                   you can upload your image on the right hand side and compare!

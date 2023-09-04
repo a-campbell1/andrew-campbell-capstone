@@ -1,6 +1,6 @@
 andrew-campbell-capstone
 Project Title
-Photography comparison tip tool Snappy Happy
+Snappy Happy Photography comparison tip tool 
 
 Overview
 What is your app? Brief description in a couple of sentences.
@@ -10,12 +10,12 @@ A app for begginer photographers to get ideas of pictures to take and what style
 Problem
 Why is your app needed? Background information around any pain points or other reasons.
 
-To help now comers to photography with a idea of what to take pictures of and practice the skills and the settings of the camera.
+To help new comers to photography with a idea of what to take pictures of and practice the skills and the settings of the camera.
 
 User Profile
 Who will use your app? How will they use it? Any special considerations that your app must take into account.
 
-biginner photographers creating the idea of what you have in mind to the digital world of photography.
+biginner photographers creating the idea of what you have in mind to the digital world of digital photography.
 
 Features
 List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe how these features are implemented, only what needs to be implemented.
@@ -36,7 +36,7 @@ Implementation
 Sitemap
 List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
-main page - displaying the pro image to re-create with a header and a footer comments section like button in the shape of a camera refresh button to get a new pro image log in page location ides and things you may need on the shoot.
+main page - displaying the pro image to re-create with a header and a footer comments section like button in the shape of a thumbs up, refresh button to get a new pro image location ides and things you may need on the shoot.
 
 Mockups
 Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
@@ -63,7 +63,7 @@ POST one picture
 Database
 Describe your data and the relationships between them. You can show this visually using diagrams, or write it out. get a random picture from a api and display the picture in a box
 
-uplod pictures and data to a Json file for the begginers photos to be stored
+upload pictures and data to a Json file for the begginers photos to be stored qnd comments to be stored
 
 Auth
 Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented. Login page with email and password
