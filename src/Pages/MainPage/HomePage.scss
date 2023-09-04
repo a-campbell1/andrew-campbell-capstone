@@ -1,5 +1,6 @@
 @use "../../Styles/partials/variables" as *;
 @use "../../Styles/partials/mixins" as *;
+@use "../../Styles/partials/fonts" as *;
 
 .background {
   width: 100%;
@@ -15,10 +16,16 @@
 }
 .productcards {
   &__container-title {
-    color: whitesmoke;
+    font-family: "Unbounded";
+    color: black;
     margin-top: 0;
     display: flex;
     justify-content: space-evenly;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 1.2rem;
   }
   &__container-content {
     width: 100%;
@@ -35,64 +42,59 @@
     display: block;
   }
   &__container-left-refresh {
+    font-family: "Unbounded";
+    font-size: 0.7rem;
     background-color: #383838;
     border-radius: 20px;
     width: 10rem;
     height: 2.3rem;
     color: #ef6817;
-    border-color: #ef6817;
   }
-  // &__container-right-upload {
-  //   background-color: #383838;
-  //   border-radius: 20px;
-  //   width: 6rem;
-  //   height: 2.3rem;
-  //   color: #ef6817;
-  //   border-color: #ef6817;
-  // }
 }
 
-  .profesional-pic {
-    &__left {
-      width: 70%;
-      border-radius: 5px;
-      border: 2px solid #ef6817
-    }
-    &__right {
-      width: 60%;
-      // height: 53vh;
-      border-radius: 5px;
-      border: 2px solid #ef6817
+.profesional-pic {
+  &__left {
+    width: 70%;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  &__right {
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid #ef6817;
+  }
+}
+.main-body {
+  background-image: url("../../Assets/Logos/Background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-pro,
+.title-begginer {
+  margin-top: 0;
+}
 
-    }
-  }
-  .main-body {
-    background-image: url("../../Assets/Logos/capstone-bg.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .title-pro, .title-begginer {
-    margin-top: 0;
-    // font-family: "Dancing-Script";
-  }
- 
+.productcards__container-left-refresh:hover {
+  color: #21201f;
+  background-color: #ef6817;
+  cursor: pointer;
+}
 
-  .productcards__container-left-refresh:hover {
-    text-decoration: underline;
-    color: #21201f;
-    background-color: #ef6817;
-    cursor: pointer;
-  }
-  
-  .like-button__left {
-    margin: auto;
-  }
-  .like-button__right {
-    margin: auto;
-  }
+.like-button__left {
+  margin: auto;
+}
+.like-button__right {
+  margin: auto;
+}
 
-  .lower__section-links {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5rem;
-  }
+.lower__section-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+.profesional-pic__right:hover {
+  box-shadow: 5px 5px 20px #ef6817;
+}
+.profesional-pic__left:hover {
+  box-shadow: 5px 5px 20px black;
+}

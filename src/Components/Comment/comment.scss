@@ -1,0 +1,54 @@
+@use "../../Styles/partials/variables" as *;
+@use "../../Styles/partials/mixins" as *;
+@use "../../Styles/partials/fonts" as *;
+
+.comment__container {
+  padding-top: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  &-title {
+    font-family: "Unbounded";
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+  &-name {
+    padding-bottom: 2rem;
+  }
+  &-comment {
+    padding-bottom: 2rem;
+  }
+  &-button {
+    font-family: "Unbounded";
+    font-size: 1rem;
+    background-color: #383838;
+    border-radius: 20px;
+    width: 20rem;
+    height: 3rem;
+    color: #ef6817;
+    cursor: pointer;
+  }
+  .comment__container-button:hover {
+    color: #21201f;
+    background-color: #ef6817;
+    cursor: pointer;
+  }
+  &-comments-section {
+    padding-top: 2rem;
+  }
+}
+.form__comment {
+  font-size: 15px;
+  font-family: "Unbounded";
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  color: #ef6817;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}

@@ -1,37 +1,40 @@
 @use "../../Styles/partials/variables" as *;
 @use "../../Styles/partials/mixins" as *;
+@use "../../Styles/partials/fonts" as *;
 
 .header-section {
   &__title {
-    font-family: "Dancing-Script";
     color: #ef6817;
     padding-left: 1rem;
-    font-size: 2rem;
+
     @include tablet {
-        font-size: 4rem;
+      width: auto;
     }
     @include desktop {
-        font-size: 5rem;
     }
   }
+  &__logo {
+    width: 60%;
+  }
   &__container {
-    background-color: #21201f;
     border-bottom: 3px solid white;
   }
   &__container-btn {
     display: flex;
     max-width: 100%;
-    height: 5rem;
+    border: none;
     justify-content: space-evenly;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
   }
   &__container-left {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   &__container-centre {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   &__container-right {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .login-btn,
   .sign-up-btn,
@@ -41,15 +44,17 @@
     width: 6rem;
     height: 2.3rem;
     color: #ef6817;
-    border-color: #ef6817;
+    border: none;
+    font-family: "Unbounded";
+
     @include tablet {
       width: 10rem;
-      font-size:1.1rem ;
+      font-size: 0.9rem;
     }
     @include desktop {
-        width: 20rem;
-        height: 3rem;
-        font-size: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -59,17 +64,17 @@
   }
 }
 .login-btn:hover {
-    text-decoration: underline;
-    color: #21201f;
-    background-color: #ef6817;
- }
- .sign-up-btn:hover {
-    text-decoration: underline;
-    color: #21201f;
-    background-color: #ef6817;
- }
- .camera-store-btn:hover {
-    text-decoration: underline;
-    color: #21201f;
-    background-color: #ef6817;
- }
+  color: #21201f;
+  background-color: #ef6817;
+  cursor: pointer;
+}
+.sign-up-btn:hover {
+  color: #21201f;
+  background-color: #ef6817;
+  cursor: pointer;
+}
+.camera-store-btn:hover {
+  color: #21201f;
+  background-color: #ef6817;
+  cursor: pointer;
+}

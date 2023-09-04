@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import LikeBtn from "../../Assets/Icons/Like-Btn.png";
 import "./LikeButton.scss";
 
-const LikeButton = () => {
-  const [likes, setLikes] = useState(0);
+const LikeButton = ({ location }) => {
+  const [likes, setLikes] = useState(Math.floor(Math.random() * 300));
+  const [uploadedLikes, setUploadedLikes] = useState(0);
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
-    if (isClicked) {
+    if (location === "left") {
       setLikes(likes + 1);
-    } else {
-      setLikes(likes + 1);
+      setIsClicked(!isClicked);
     }
-    setIsClicked(!isClicked);
+    if (location === "right") {
+      setUploadedLikes(uploadedLikes + 1);
+      setIsClicked(!isClicked);
+    }
   };
 
   return (
@@ -21,7 +24,9 @@ const LikeButton = () => {
       onClick={handleClick}
     >
       <img src={LikeBtn} alt="like Button" className="like-icon" />
-      <span className="likes-counter">{`${likes}`}</span>
+      <span className="likes-counter">
+        {location === "left" ? `${likes}` : `${uploadedLikes}`}
+      </span>
     </button>
   );
 };

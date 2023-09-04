@@ -1,9 +1,10 @@
 @use "../../Styles/partials/variables" as *;
 @use "../../Styles/partials/mixins" as *;
+@use "../../Styles/partials/fonts" as *;
 
 .footer-section {
   &__container {
-    height: 4.1rem;
+    height: 6rem;
     background-color: #21201f;
     @include tablet {
       height: 7rem;
@@ -16,7 +17,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 0.5rem;
-    border-top: 3px solid white;
+    
     @include desktop {
         padding-top: 1rem;
     }
@@ -24,7 +25,7 @@
   
   &__copyright {
     @include tablet {
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
   }
   &__social-icon {
@@ -36,11 +37,12 @@
 }
 
 .copyright-txt {
-  font-family: "Dancing-Script";
+  cursor: pointer;
+  font-family: "Unbounded";
   font-size: 10px;
   text-decoration: none;
   border-style: none;
-  color: #ef6817;
+  color: white;
   background-color: #21201f;
   padding-top: 0.5rem;
   @include tablet {
