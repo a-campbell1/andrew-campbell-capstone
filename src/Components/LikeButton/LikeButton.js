@@ -6,6 +6,7 @@ const LikeButton = ({ location }) => {
   const [likes, setLikes] = useState(Math.floor(Math.random() * 300));
   const [uploadedLikes, setUploadedLikes] = useState(0);
   const [isClicked, setIsClicked] = useState(false);
+  
 
   const handleClick = () => {
     if (location === "left") {
@@ -17,6 +18,8 @@ const LikeButton = ({ location }) => {
       setIsClicked(!isClicked);
     }
   };
+
+  
 
   return (
     <button

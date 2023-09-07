@@ -4,6 +4,12 @@ import { useState } from "react";
 function Comment({ showComments }) {
   const [comments, setComments] = useState([
     {
+      name: "Clare Campbell",
+      date: new Date(2023, 8, 4),
+      comments:
+        "I love the softness of this photo, you keep getting better and better. Would love to join you next time you go on a shoot for some tips and pointers",
+    },
+    {
       name: "David Yarrow",
       date: new Date(2023, 8, 4),
       comments:
@@ -19,6 +25,12 @@ function Comment({ showComments }) {
       date: new Date(2023, 8, 1),
       comments:
         "Great use of the rule of thirds, Ill be back from safari soon, Ill upload some images you can try replicate.",
+    },
+    {
+      name: "Gal Chambers",
+      date: new Date(2023, 8, 1),
+      comments:
+        "Great shot, try getting more background in the shot, it will set the scene and tell a bit more of a story.",
     },
   ]);
 
